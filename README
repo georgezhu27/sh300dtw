@@ -1,6 +1,6 @@
 # 用DTW算法找到沪深300指数历史行情与最近10天走势最相似的一段
 
-# 结果
+## 结果
 
 根据所用的距离不同`dist`，结果会有不同。这里采用1-范数。
 
@@ -25,7 +25,7 @@ date
 
 ![respic](https://raw.githubusercontent.com/yzlnew/sh300dtw/master/sh300.png)
 
-# 主要涉及库
+## 主要涉及库
 
 * tushare - 用来获取行情数据
 * dtw - DTW算法
